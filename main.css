@@ -1,3 +1,10 @@
+* {
+  background-color: FFFCF9;
+  font-family: Helvetica, sans-serif;
+}
+header {
+  font-family: Impact, Charcoal, sans-serif;
+}
 .landing{
   height: 100vh;
   background: linear-gradient(
@@ -8,6 +15,3 @@
       #FFD166 100%
     );
   }
-header {
-  background-color: FFFCF9;
-}
