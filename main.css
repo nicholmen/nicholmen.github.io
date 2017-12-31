@@ -4,7 +4,10 @@
       to right, 
       #06D6A0 0%, 
       #06D6A0 50%, 
-      #FFFCF9 50%, 
-      #FFFCF9 100%
+      #FFD166 50%, 
+      #FFD166 100%
     );
   }
+header {
+  background-color: FFFCF9;
+}
