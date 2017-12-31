@@ -1,0 +1,10 @@
+.landing{
+  height: 100vh;
+  background: linear-gradient(
+      to right, 
+      #06D6A0 0%, 
+      #06D6A0 50%, 
+      #FFFCF9 50%, 
+      #FFFCF9 100%
+    );
+  }
