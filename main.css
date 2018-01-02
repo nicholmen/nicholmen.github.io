@@ -2,7 +2,7 @@
   background-color: FFFCF9;
   font-family: Helvetica, sans-serif;
 }
-#nav {
+header #nav {
   font-family: Impact, Charcoal, sans-serif;
 }
 .landing{
@@ -15,3 +15,8 @@
       #FFD166 100%
     );
   }
+#welcome {
+  top: 40%;
+  position: relative;
+  text-align: center;
+}
