@@ -2,8 +2,19 @@
   background-color: FFFCF9;
   font-family: Helvetica, sans-serif;
 }
+/* animations */
+@keyframes moveAcross {
+  0% {
+    left: -10%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+/* welcome section */
 header #nav {
   font-family: Impact, Charcoal, sans-serif;
+  position: fixed;
 }
 .landing{
   height: 100vh;
@@ -15,7 +26,11 @@ header #nav {
       #FFD166 100%
     );
   }
-#welcome {
+#howdy {
+  animation: moveAcross 5s linear infinite;
+  
+}
+#blurb {
   top: 40%;
   position: relative;
   text-align: center;
