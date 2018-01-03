@@ -1,21 +1,37 @@
 * {
   background-color: FFFCF9;
   font-family: Helvetica, sans-serif;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;         /* Opera/IE 8+ */
 }
 /* animations */
-@keyframes moveAcross {
-  0% {
-    left: -10%;
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
   }
-  100% {
-    left: 100%;
+
+  to {
+    margin-left: 0%;
+    width: 100%;
   }
 }
 /* welcome section */
-header #nav {
-  font-family: Impact, Charcoal, sans-serif;
+header {
   position: fixed;
+  width: 100%;
+  height: 6%;
+  top: 0px;
+  background-color: pink;
+  vertical-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1%;
 }
+
+
 .landing{
   height: 100vh;
   background: linear-gradient(
@@ -27,8 +43,9 @@ header #nav {
     );
   }
 #howdy {
-  animation: moveAcross 5s linear infinite;
-  
+  animation-duration: 1.5s;
+  animation-name: slidein;
+  font-size: 300%;
 }
 #welcome {
   top: 40%;
